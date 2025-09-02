@@ -56,6 +56,7 @@ public class Produto {
     }
     //endregion
 
+    //region ToString
     @Override
     public String toString() {
         return "🛍️ Produto {" +
@@ -65,5 +66,6 @@ public class Produto {
                 ", 💰 preco=" + preco +
                 '}';
     }
+    //endregion
 
 }
